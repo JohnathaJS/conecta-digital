@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="description" content="Conecta Digital: aprenda tecnologia e internet de forma simples e segura.">
+    <title>Conecta Digital</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="#inicio">Conecta Digital</a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">
+            <span aria-hidden="true">☰</span>
+            <span class="sr-only">Abrir menu</span>
+        </button>
+
+        <nav id="main-menu" class="main-nav" aria-label="Navegação principal">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#aprenda">Aprenda</a></li>
+                <li><a href="#atividade">Atividade</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+    <div class="container hero-content">
+
+        <div class="hero-text">
+            <p class="eyebrow">Tecnologia para todos</p>
+            <h1>Aprenda tecnologia de forma simples</h1>
+            <p>
+                Descubra como utilizar a internet e as ferramentas digitais
+                de maneira fácil e segura.
+            </p>
+            <a class="button" href="#aprenda">Começar a aprender</a>
+        </div>
+
+        <div class="hero-topics" aria-label="Conteúdos da plataforma">
+            <div class="hero-topic">
+                <strong>Internet</strong>
+                <span>Aprenda a pesquisar e encontrar informações.</span>
+            </div>
+            <div class="hero-topic">
+                <strong>Aplicativos</strong>
+                <span>Descubra ferramentas para facilitar seu dia a dia.</span>
+            </div>
+            <div class="hero-topic">
+                <strong>Segurança</strong>
+                <span>Aprenda a proteger seus dados na internet.</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="aprenda" class="section">
+            <div class="container">
+                <h2>Aprenda</h2>
+                <p>Conheça conceitos básicos para utilizar a tecnologia e a internet com mais segurança.</p>
+
+                <div class="cards">
+                    <article class="card">
+                        <button class="card-toggle" type="button" aria-expanded="false" aria-controls="internet-details">
+                            <span class="card-icon" aria-hidden="true">🌐</span>
+                            <span class="card-heading">
+                                <strong>Internet</strong>
+                                <span>Aprenda o que é a internet, como acessar sites, fazer pesquisas e encontrar informações de forma segura.</span>
+                            </span>
+                            <span class="indicator" aria-hidden="true">+</span>
+                        </button>
+                        <div id="internet-details" class="card-details" hidden>
+                            <p>A internet permite acessar informações, conversar com outras pessoas, assistir vídeos, estudar e realizar diversas atividades.</p>
+                            <p>Para fazer uma pesquisa, utilize um navegador como Chrome, Edge ou Firefox e escreva o que deseja encontrar na barra de pesquisa.</p>
+                            <p><strong>Dica:</strong> nem tudo que aparece na internet é verdadeiro. Procure informações em sites confiáveis antes de acreditar ou compartilhar algo.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <button class="card-toggle" type="button" aria-expanded="false" aria-controls="apps-details">
+                            <span class="card-icon" aria-hidden="true">📱</span>
+                            <span class="card-heading">
+                                <strong>Aplicativos</strong>
+                                <span>Descubra o que são aplicativos, como utilizá-los e quais cuidados devemos ter ao instalá-los.</span>
+                            </span>
+                            <span class="indicator" aria-hidden="true">+</span>
+                        </button>
+                        <div id="apps-details" class="card-details" hidden>
+                            <p>Aplicativos são programas criados para realizar diferentes tarefas no celular, tablet ou computador. Existem aplicativos para estudar, conversar, assistir vídeos, jogar e muito mais.</p>
+                            <p>Antes de instalar um aplicativo, verifique se ele está sendo baixado de uma loja oficial, como a Google Play Store ou a App Store.</p>
+                            <p><strong>Dica:</strong> observe as permissões solicitadas pelo aplicativo e mantenha seus aplicativos atualizados.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <button class="card-toggle" type="button" aria-expanded="false" aria-controls="security-details">
+                            <span class="card-icon" aria-hidden="true">🔒</span>
+                            <span class="card-heading">
+                                <strong>Segurança Digital</strong>
+                                <span>Aprenda a proteger suas informações e navegar pela internet com mais segurança.</span>
+                            </span>
+                            <span class="indicator" aria-hidden="true">+</span>
+                        </button>
+                        <div id="security-details" class="card-details" hidden>
+                            <p>Segurança digital significa tomar cuidados para proteger seus dados, contas e informações pessoais enquanto utilizamos a internet.</p>
+                            <p>Crie senhas fortes, evite compartilhar informações pessoais com desconhecidos e desconfie de mensagens que prometem prêmios ou pedem dados.</p>
+                            <p><strong>Dica:</strong> não clique em links suspeitos. Se uma mensagem parecer estranha, peça ajuda a um adulto de confiança.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="atividade" class="quiz" aria-labelledby="quiz-title">
+            <h3 id="quiz-title">🎯 Teste seus conhecimentos</h3>
+            <p>Responda às perguntas para praticar o que você aprendeu.</p>
+
+            <form id="quiz-form">
+                <fieldset class="quiz-question">
+                    <legend>1. Como verificar se uma informação da internet é confiável?</legend>
+                    <button type="button" class="quiz-option" data-question="0" data-answer="wrong">
+                        A) Compartilhar imediatamente.
+                    </button>
+                    <button type="button" class="quiz-option" data-question="0" data-answer="correct">
+                        B) Conferir em sites confiáveis.
+                    </button>
+                    <button type="button" class="quiz-option" data-question="0" data-answer="wrong">
+                        C) Acreditar em qualquer mensagem.
+                    </button>
+                    <p class="quiz-feedback" id="feedback-0" role="status" aria-live="polite"></p>
+                </fieldset>
+
+                <fieldset class="quiz-question">
+                    <legend>2. Qual é a forma mais segura de instalar um aplicativo?</legend>
+                    <button type="button" class="quiz-option" data-question="1" data-answer="correct">
+                        A) Usar uma loja oficial.
+                    </button>
+                    <button type="button" class="quiz-option" data-question="1" data-answer="wrong">
+                        B) Baixar de qualquer link.
+                    </button>
+                    <button type="button" class="quiz-option" data-question="1" data-answer="wrong">
+                        C) Instalar sem verificar as permissões.
+                    </button>
+                    <p class="quiz-feedback" id="feedback-1" role="status" aria-live="polite"></p>
+                </fieldset>
+
+                <fieldset class="quiz-question">
+                    <legend>3. Você recebeu uma mensagem pedindo sua senha para receber um prêmio. O que fazer?</legend>
+                    <button type="button" class="quiz-option" data-question="2" data-answer="wrong">
+                        A) Informar a senha.
+                    </button>
+                    <button type="button" class="quiz-option" data-question="2" data-answer="wrong">
+                        B) Clicar no link.
+                    </button>
+                    <button type="button" class="quiz-option" data-question="2" data-answer="correct">
+                        C) Não clicar e pedir ajuda a um adulto.
+                    </button>
+                    <p class="quiz-feedback" id="feedback-2" role="status" aria-live="polite"></p>
+                </fieldset>
+
+                <button class="quiz-reset" id="quiz-reset" type="button">
+                    Tentar novamente
+                </button>
+            </form>
+        </section>
+
+        <section id="sobre" class="section section-light">
+            <div class="container">
+                <h2>Sobre o Conecta Digital</h2>
+                <p>O Conecta Digital é uma plataforma educativa criada para facilitar o aprendizado sobre tecnologia e internet.</p>
+                <p>O projeto apresenta informações de maneira simples e acessível, contribuindo para a inclusão digital e para o uso mais seguro das ferramentas digitais.</p>
+                <p>A plataforma foi desenvolvida como parte da Atividade Extensionista II do curso de Análise e Desenvolvimento de Sistemas.</p>
+
+                <div class="project-goal">
+                    <h3>Objetivo do projeto</h3>
+                    <p>Facilitar o aprendizado de conceitos básicos de internet, aplicativos e segurança digital por meio de uma plataforma web simples e acessível.</p>
+                </div>
+
+                <div class="qr-placeholder">
+                    <h3>Acesse pelo celular</h3>
+                    <p>Escaneie o QR Code para acessar a plataforma.</p>
+                    <div class="qr-box" role="img" aria-label="QR Code em breve">QR Code em breve</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p><strong>Conecta Digital</strong></p>
+        <p>Projeto desenvolvido para a Atividade Extensionista II — CST em Análise e Desenvolvimento de Sistemas.</p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
